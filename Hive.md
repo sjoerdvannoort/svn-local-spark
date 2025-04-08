@@ -1,20 +1,20 @@
 # Hive 
 
-## enabling hive support
+## Enabling hive support
 
 To successfully enable hive support on windows, make sure hadoop.dll and winutils.dll are in a folder that is in the PATH environment variable. 
 
 ## Start Hive Thrift Server from python
 
-With below code snippet the trigt server can be started from python code
-````
+With below code snippet the thrift server can be started from python code
+```
 # Start Hive Thrift Server
 java_args = sc._gateway.new_array(sc._gateway.jvm.java.lang.String,2)
 java_args[0]="dummy"    
 java_args[1]="false"
 
 sc._jvm.org.apache.spark.sql.hive.thriftserver.HiveThriftServer2.main(java_args)
-``` 
+```
 
 See the example in the jupyter/Hive.ipynb notebook
 
