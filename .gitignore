@@ -1,5 +1,9 @@
-# persisted hive metastore
+# default metastore
 jupyter/metastore_db/
+# persisted hive metastore
+hive_metastore_db/
+# default data storage location
+spark-data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
