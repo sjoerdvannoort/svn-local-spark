@@ -4,6 +4,10 @@ jupyter/metastore_db/
 hive_metastore_db/
 # default data storage location
 spark-data/
+# generated resources
+resources/generated
+# visual studio code
+.vscode/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
