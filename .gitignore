@@ -8,6 +8,8 @@ spark-data/
 resources/generated
 # visual studio code
 .vscode/
+# visual studio code scala metals
+.metals/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
