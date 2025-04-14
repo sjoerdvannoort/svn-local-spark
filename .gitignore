@@ -4,6 +4,8 @@ jupyter/metastore_db/
 hive_metastore_db/
 # default data storage location
 spark-data/
+# temporary delta files storage location
+delta-data-tmp/
 # generated resources
 resources/generated
 # visual studio code
