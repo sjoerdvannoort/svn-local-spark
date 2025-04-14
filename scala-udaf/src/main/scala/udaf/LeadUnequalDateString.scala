@@ -41,7 +41,7 @@ package spark.udaf
          // The Encoder for the intermediate value type
         val bufferEncoder: Encoder[LeadUnequalDateStringBuffer] = Encoders.product
         // The Encoder for the final output value type
-        val outputEncoder: Encoder[Date] = ExpressionEncoder[Date]
+        val outputEncoder: Encoder[Date] = ExpressionEncoder[Date]()
 
         // Helper function to be able to register this in pyspark
         def register(spark: SparkSession): Unit = {
