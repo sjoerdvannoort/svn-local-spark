@@ -6,6 +6,7 @@ hive_metastore_db/
 spark-data/
 # temporary delta files storage location
 delta-data-tmp/
+spark-data-tmp/
 # generated resources
 resources/generated
 # visual studio code
