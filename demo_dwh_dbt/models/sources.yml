@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: sales
+    schema: sales_demo
+    tables:
+      - name: stores
+      - name: products
+      - name: customers
+      - name: sales_orders
+      - name: sales_details
